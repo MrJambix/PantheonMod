@@ -41,7 +41,7 @@
 ---
 
 ## **👨‍💻 Contributors**
-- **[Your Name]** – Lead Developer  
+- **MrJambix** – Lead Developer  
 - **Open for Contributions!** Feel free to fork and submit PRs.  
 
 ---
