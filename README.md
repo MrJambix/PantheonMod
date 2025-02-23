@@ -1,7 +1,15 @@
 # PantheonMod
-# **The All-Knowing Mod**
+# **The All-Knowing Mod** (WIP)  
 
-🎮 **A powerful mod for Pantheon: Rise of the Fallen**, providing useful UI enhancements and tracking tools to improve gameplay.
+🎮 **A powerful mod for Pantheon: Rise of the Fallen**, providing useful UI enhancements and tracking tools to improve gameplay.  
+
+🚧 **This mod is a Work in Progress (WIP)** – Features are still being developed! Expect updates.  
+
+---
+
+## **⚠ Requirements**
+🔹 **[MelonLoader](https://melonwiki.xyz)** – This mod requires **MelonLoader** to run.  
+🔹 **Pantheon: Rise of the Fallen**  
 
 ---
 
@@ -21,9 +29,10 @@
 ---
 
 ## **🛠 Installation**
-1. Download the latest release from [GitHub Releases](https://github.com/YourRepoName).  
-2. Place the **mod DLL** in your `MelonLoader/Mods/` directory.  
-3. Launch the game, and the **mod UI should appear automatically**.  
+1. **Install [MelonLoader](https://melonwiki.xyz/#/?id=installing-melonloader)** if you haven't already.  
+2. Download the latest release from [GitHub Releases](https://github.com/YourRepoName).  
+3. Place the **mod DLL** in your `MelonLoader/Mods/` directory.  
+4. Launch the game, and the **mod UI should appear automatically**.  
 
 ---
 
@@ -35,7 +44,7 @@
 ---
 
 ## **📝 Notes**
-- This mod is a **work in progress**, and features will be added in future updates.  
+- This mod is a **Work in Progress (WIP)**, so features may change or improve over time.  
 - **Bugs? Suggestions?** Feel free to report issues in the [GitHub Issues](https://github.com/YourRepoName/issues) tab.  
 
 ---
