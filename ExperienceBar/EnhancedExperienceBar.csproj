@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86D00B30-AC2D-48EC-99FB-B9510B7D3D7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EnhancedExperienceBar</RootNamespace>
+    <AssemblyName>EnhancedExperienceBar</AssemblyName>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETCoreApp</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="Il2CppScripts" />
+    <Reference Include="Il2CppViNL" />
+    <Reference Include="MelonLoader" />
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.36\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.CoreModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarEnhancer.cs" />
+    <Compile Include="Hooks\ExperienceSetHook.cs" />
+    <Compile Include="Hooks\PlayerNetworkStart.cs" />
+    <Compile Include="Hooks\UIPanelHooks.cs" />
+    <Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+    <Compile Include="Models\PlayerExperience.cs" />
+    <Compile Include="ModMain.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Runtime\CompilerServices\NullableAttribute.cs" />
+    <Compile Include="System\Runtime\CompilerServices\NullableContextAttribute.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
